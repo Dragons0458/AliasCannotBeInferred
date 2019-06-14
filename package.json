@@ -1,0 +1,22 @@
+{
+  "name": "relationship-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^1.6.5",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^5.8.9",
+    "ts-node": "^8.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0",
+    "sequelize-typescript": "^1.0.0-beta.3",
+    "typescript": "^3.4.1"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "outDir": "dist",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "removeComments": true,
+    "lib": [
+      "es2018",
+      "es2018.intl",
+      "es2018.promise",
+      "es2018.regexp"
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "compileOnSave": true,
+  "exclude": [
+    "node_modules"
+  ]
+}
